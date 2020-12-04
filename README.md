@@ -8,11 +8,11 @@ A simple flask server for esp32-cam to upload captured image.
 ## Server Setup
 
 ### Python package installation  
-```pip install -r requirements.txt```
+`$ pip install -r requirements.txt`
 
 ### Nginx Server
 In ubuntu:  
-```sudo apt-get install nginx```
+`$ sudo apt-get install nginx`
 
 #### Setup:  
 Create a file /etc/nginx/sites-available/esp32 and type the following:  
@@ -25,12 +25,15 @@ server {
 }
 
 ```  
-`ln -s /etc/nginx/sites-available/esp32 /etc/nginx/sites-enabled/esp32`  
-`sudo service nginx restart`   
+Create a symbolic link in the sites-enabled directory:  
+`$ ln -s /etc/nginx/sites-available/esp32 /etc/nginx/sites-enabled/esp32`   
+
+Restart nginx service:  
+`$ sudo service nginx restart`   
 
 ### Run Server
-`cd flask_app`
-`gunicorn run:app`
+`$ cd flask_app`  
+`$ gunicorn run:app`
 
 ## Client
 The esp32-cam/client_image_post/client_image_post.ino sketch is based on project [ESP32-CAM-Arduino-IDE](https://github.com/RuiSantosdotme/ESP32-CAM-Arduino-IDE)  by Rui Santos.
