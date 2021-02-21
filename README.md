@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Nannigalaxy/esp32-cam_flask/blob/master/LICENSE)  
 
 # ESP32-cam Flask
 
