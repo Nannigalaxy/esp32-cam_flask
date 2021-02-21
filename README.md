@@ -5,12 +5,12 @@
 A simple flask server for esp32-cam to upload captured image.   
 
 
-## Server Setup
+## 1. Server Setup
 
-### Python package installation  
+### 1.1. Python package installation  
 `$ pip install -r requirements.txt`
 
-### Nginx Server
+### 1.2. Nginx Server
 In ubuntu:  
 `$ sudo apt-get install nginx`
 
@@ -35,7 +35,7 @@ Restart nginx service:
 `$ cd flask_app`  
 `$ gunicorn run:app`
 
-## Client
+## 2. Client
 The esp32-cam/client_image_post/client_image_post.ino sketch is based on project [ESP32-CAM-Arduino-IDE](https://github.com/RuiSantosdotme/ESP32-CAM-Arduino-IDE)  by Rui Santos.
 
 ### TODO
