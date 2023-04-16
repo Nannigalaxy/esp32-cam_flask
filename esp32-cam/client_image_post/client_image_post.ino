@@ -23,7 +23,7 @@ String serverName = "192.168.43.155";
 
 String serverPath = "/upload";  // Flask upload route
 
-const int serverPort = 80;
+const int serverPort = 8000;
 
 const int timerInterval = 20000;    // time (milliseconds) between each HTTP POST image
 unsigned long previousMillis = 0;   // last time image was sent
