@@ -1,2 +1,4 @@
 flask
 gunicorn
+numpy
+opencv-python
